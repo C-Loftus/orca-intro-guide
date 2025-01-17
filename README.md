@@ -2,11 +2,11 @@
 
 This document is the written version of a video tutorial which is soon to be made and is intended to provide new users of all abilities with a general intro on using the Orca screen reader.
 
-This document is community driven; create an issue or PR on Github if you would like to make changes.
+This document was created by [Colton Loftus](https://github.com/C-Loftus) but is community driven; create an issue or PR on Github if you would like to make changes.
 
 ## Cheatsheet
 
-A cheatsheet of many keyboard commands for Orca can be found [here](./cheatsheet.html)
+A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.md)
 
 ## Linux Background
 
@@ -43,6 +43,8 @@ A cheatsheet of many keyboard commands for Orca can be found [here](./cheatsheet
     - Default way you navigate the desktop
     - i.e. pressing up in a text box could move you to the previous element
     - Toggled with `Orca` + A
+    - Essentially a form of structural navigation. 
+    - Currently supported only in web browsers, but may one day be added to other apps like LibreOffice
 - Focus Mode
     - Navigate inside of a focused element without moving outside of it
     - Automatically enabled when moving focus into certain editable text boxes
@@ -55,6 +57,10 @@ A cheatsheet of many keyboard commands for Orca can be found [here](./cheatsheet
     - Don't speak when a particular application is focused
     - i.e. don't duplicate speech when a self-speaking app is focused
     - Toggle for a specific application with `Alt` + `ctrl` + `shift` + q
+- Structural Navigation vs Flat Review
+    - Not a mode difference technically, but structural navigation keys can be toggled with `Orca + Z`
+    - Structural navigation commands move around by the semantic tags of the a11y tree. 
+    - Flat review goes through each line one a time without a structured hierarchy 
 
 ## Learning to Use Orca
 
@@ -68,6 +74,7 @@ A cheatsheet of many keyboard commands for Orca can be found [here](./cheatsheet
 - There is no one central place for Linux accessibility discussions
 - May need to recompile to get latest Orca updates
     - I have a written guide [here](https://gist.github.com/C-Loftus/5c71ebef18717a364e1ac2865a54e1e9), but dependencies may change over time
+- 
 
 ### Web Pages
 
