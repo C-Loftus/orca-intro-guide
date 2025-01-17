@@ -20,13 +20,13 @@ A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.m
 
 - espeak-ng 
     - Orca's default voice
-    - Click [here](./voices/espeak.mp3) to listen to a demo. 
+    - Click [here](https://github.com/C-Loftus/orca-intro-guide/blob/main/voices/espeak.mp3) to listen to a demo. 
     - espeak-ng supports many different languages, but is commonly criticized as being too robotic
 - [Voxin](https://voxin.oralux.net/voice.php)
     - Paid, proprietary voices. 
     - Many languages which sound fairly good
     - Each voices averages $20 and can get rather expensive
-    - Click [here](./voices/voxin/) to listen to multiple different voice demos
+    - Click [here](https://github.com/C-Loftus/orca-intro-guide/blob/main/voices/voxin/) to listen to multiple different voice demos
 - [rhvoice](https://rhvoice.org/)
     - A free set of voices that is more natural than espeak
     - My preferred option
@@ -74,10 +74,10 @@ A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.m
 - There is no one central place for Linux accessibility discussions
 - May need to recompile to get latest Orca updates
     - I have a written guide [here](https://gist.github.com/C-Loftus/5c71ebef18717a364e1ac2865a54e1e9), but dependencies may change over time
-- 
+- There is no plugin system like in NVDA
+    - You can create scripts and bundle them inside Orca but this is less straightforward
 
 ### Web Pages
-
 
 * https://orca.gnome.org/
 * https://help.gnome.org/users/orca/stable/index.html.en
@@ -85,7 +85,7 @@ A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.m
 
 ### Talks 
 
-* https://www.youtube.com/watch?v=_RQBh7UmEps
+* [General a11y overview](https://www.youtube.com/watch?v=_RQBh7UmEps)
 
 <!-- ## Other Useful a11y content -->
 <!-- * https://www.youtube.com/watch?v=xseIsaxrlXo
