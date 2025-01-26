@@ -24,7 +24,8 @@ A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.m
     - espeak-ng supports many different languages, but is commonly criticized as being too robotic
 - [Voxin](https://voxin.oralux.net/voice.php)
     - Paid, proprietary voices. 
-    - Many languages which sound fairly good
+    - Many voices in many languages, many of which sound very good
+        - MacOS uses many of these voices, such as Samantha (the default VoiceOver voice)
     - Each voices averages $20 and can get rather expensive
     - Click [here](https://github.com/C-Loftus/orca-intro-guide/blob/main/voices/voxin/) to listen to multiple different voice demos
 - [rhvoice](https://rhvoice.org/)
