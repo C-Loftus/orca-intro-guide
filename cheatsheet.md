@@ -1,4 +1,8 @@
-# General
+# Orca Cheatsheet
+
+This cheatsheet was ported by Colton from https://github.com/dankeck/orca-laptop-one-page 
+
+## General
 | Function                          | Shortcut                  |
 |-----------------------------------|---------------------------|
 | Toggle Orca on and off            | Super + Alt + S          |
@@ -16,14 +20,14 @@
 | Speak current selection           | Orca + Shift + Up        |
 | Stop speaking                     | Orca                     |
 
-# Basic Navigation
+## Basic Navigation
 | Function                 | Shortcut                  |
 |--------------------------|---------------------------|
 | Next, previous character | Right, Left              |
 | Next, previous word      | Ctrl + Right, Left       |
 | Next, previous line      | Up, Down                 |
 
-# Structural Navigation
+## Structural Navigation
 | Function                          | Shortcut                  |
 |-----------------------------------|---------------------------|
 | Toggle Structural Navigation      | Orca + Z                 |
@@ -52,14 +56,14 @@
 | Go backwards instead of forwards  | Shift + [key listed above]|
 | List all items of type            | Shift + Alt + [key above]|
 
-# Object Navigation
+## Object Navigation
 | Function                 | Shortcut                  |
 |--------------------------|---------------------------|
 | Next, previous sibling   | Orca + Ctrl + Right, Left|
 | First child              | Orca + Ctrl + Down       |
 | Parent                   | Orca + Ctrl + Up         |
 
-# Tables
+## Tables
 | Function                          | Shortcut                  |
 |-----------------------------------|---------------------------|
 | Toggle cell vs. row reading       | Orca + F11               |
@@ -69,7 +73,7 @@
 | Go to first cell in table         | Shift + Alt + Home       |
 | Go to last cell in tab            | Shift + Alt + End        |
 
-# Live Regions
+## Live Regions
 | Function                          | Shortcut                  |
 |-----------------------------------|---------------------------|
 | Monitor live regions              | Orca + Shift + Backslash |
@@ -79,7 +83,7 @@
 | Go to last live region announced  | Y                        |
 | Review announcements              | Orca + F1 – F9           |
 
-# Where Am I
+## Where Am I
 | Function                          | Shortcut                  |
 |-----------------------------------|---------------------------|
 | Basic Where Am I                  | Orca + Enter             |
@@ -88,7 +92,7 @@
 | Status bar                        | Orca + / (double-clicked)|
 | Speak text formatting             | Orca + F                 |
 
-# Flat Review
+## Flat Review
 | Function                          | Shortcut                  |
 |-----------------------------------|---------------------------|
 | Previous line                     | Orca + U                 |
@@ -111,13 +115,10 @@
 | Find next                         | Orca + Right bracket     |
 | Find previous                     | Orca + Ctrl + Right bracket|
 
-# Bookmarks
+## Bookmarks
 | Function                          | Shortcut                  |
 |-----------------------------------|---------------------------|
 | Save bookmark to slot             | Orca + Alt + 1-6         |
 | Save bookmarks for app or page    | Orca + Alt + B           |
 | Go to bookmark slot               | Orca + 1-6               |
 
-# Attribution
-
-Thank you to https://github.com/dankeck/orca-laptop-one-page
