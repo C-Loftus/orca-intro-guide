@@ -26,7 +26,7 @@ A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.m
     - Paid, proprietary voices. 
     - Many voices in many languages, many of which sound very good
         - MacOS uses many of these voices, such as Samantha (the default VoiceOver voice)
-    - Each voices averages $20 and can get rather expensive
+    - Each voice averages $20 but it is probably worth it if you can afford it  
     - Click [here](https://github.com/C-Loftus/orca-intro-guide/blob/main/voices/voxin/) to listen to multiple different voice demos
 - [rhvoice](https://rhvoice.org/)
     - A free set of voices that is more natural than espeak
