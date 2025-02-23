@@ -65,7 +65,7 @@ A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.m
 ## Learning to Use Orca
 
 - Begin by learning navigation commands for your desktop environment
-- Workflows using the browser of electron applications like VSCode or Slack tend to have the best success
+- Workflows using the browser or electron applications like VSCode or Slack tend to have the best success
 - Orca mailing list tends to be the best place to ask questions
 
 ### Downsides
