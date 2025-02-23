@@ -26,14 +26,13 @@ A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.m
     - Paid, proprietary voices. 
     - Many voices in many languages, many of which sound very good
         - MacOS uses many of these voices, such as Samantha (the default VoiceOver voice)
-    - Each voice averages $20 but it is probably worth it if you can afford it  
+    - Each voice averages $20 but it is probably worth it if you can afford it
     - Click [here](https://github.com/C-Loftus/orca-intro-guide/blob/main/voices/voxin/) to listen to multiple different voice demos
 - [rhvoice](https://rhvoice.org/)
     - A free set of voices that is more natural than espeak
-    - My preferred option
     - Easy to install and works cross platform if desired
 - [piper](https://rhasspy.github.io/piper-samples/)
-    - A free set of voices that are quite realistic without needing to pay or have an expensive GPU
+    - A free set of voices that are quite realistic without needing to pay or have a GPU
     - Generally too slow for screen reader use, but good for [generating audiobooks](https://github.com/C-Loftus/QuickPiperAudiobook) or other audio content outside of screen reader use
     - Must be installed with [pied](https://github.com/Elleo/pied) which is sporadically maintained or use Orca's experimental `spiel` integration
 
@@ -76,7 +75,7 @@ A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.m
 - May need to recompile to get latest Orca updates
     - I have a written guide [here](https://gist.github.com/C-Loftus/5c71ebef18717a364e1ac2865a54e1e9), but dependencies may change over time
 - There is no plugin system like in NVDA
-    - You can create scripts and bundle them inside Orca but this is less straightforward
+    - You can [create scripts](#scripting-orca) and bundle them inside Orca but this is less straightforward
 
 ### Web Pages
 
@@ -84,9 +83,19 @@ A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.m
 * https://help.gnome.org/users/orca/stable/index.html.en
 * https://emmabuntus.org/wp-content/uploads/2024/07/Manual_Orca_20240711.pdf
 
+### Scripting Orca
+
+- Orca is written in Python and automatically runs the special file `~/.local/share/orca/orca-customizations.py` at startup
+    - This is intended for user code and settings
+    - It is possible to put any arbitrary Python code in this file and control Orca's behavior
+- Orca does not have a stable internal API so scripts may break over time
+
 ### Talks 
 
-* [General a11y overview](https://www.youtube.com/watch?v=_RQBh7UmEps)
+Unfortunately there are not many videos regarding Orca. However, these are some that are relvant to Linux accessibility in general:
+
+* [Technical Linux a11y overview](https://www.youtube.com/watch?v=_RQBh7UmEps)
+* [Odilia Screen Reader overview](https://www.youtube.com/watch?v=8EPTDCmS7nA) (this is a new experimental Linux screen reader but it is useful for a general overview on how Linux screen readers are written)
 
 <!-- ## Other Useful a11y content -->
 <!-- * https://www.youtube.com/watch?v=xseIsaxrlXo
