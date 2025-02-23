@@ -77,7 +77,7 @@ A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.m
 - There is no plugin system like in NVDA
     - You can [create scripts](#scripting-orca) and bundle them inside Orca but this is less straightforward
 
-### Useful Web Pages / Documentation
+### Useful Websites for Documentation
 
 * https://orca.gnome.org/
 * https://help.gnome.org/users/orca/stable/index.html.en
