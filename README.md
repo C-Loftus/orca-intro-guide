@@ -13,8 +13,8 @@ A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.m
 - Use a modern, accessible Linux distribution like Ubuntu or Fedora for Orca.
 - Any distro using the Gnome desktop environment is generally a reasonable choice. 
     - Ubuntu and Fedora are both good defaults, but can sometimes have outdated orca versions in their repositories
-    - Using Debian backports, Arch Linux or NixOS can all work but come with their own tradeoffs.
-- MATE is preferred by some but I feel Gnome is better and has more overall support and a larger community.
+    - Using Debian backports, Arch Linux or NixOS can all work but may be more complicated to use
+- The MATE desktop environment is another option preferred by others
 
 ## Voices
 
