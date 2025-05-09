@@ -1,6 +1,6 @@
 # Orca Screen Reader Intro Guide
 
-This document is the written version of a video tutorial which is soon to be made and is intended to provide new users of all abilities with a general intro on using the Orca screen reader.
+This document is the written version of a [video tutorial](https://youtu.be/ugcaDHSWtaE?si=JKzrzp18owBEkC-a) on my Youtube channel and is intended to provide new users of all abilities with a general intro on using the Orca screen reader.
 
 This document was created by [Colton Loftus](https://github.com/C-Loftus) but is community driven; create an issue or PR on Github if you would like to make changes.
 
