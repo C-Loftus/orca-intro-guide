@@ -33,7 +33,7 @@ This cheatsheet was ported by Colton from https://github.com/dankeck/orca-laptop
 | Toggle Structural Navigation      | Orca + Z                 |
 | Start and end of current container| Shift + Comma, Comma     |
 | Heading                           | H                        |
-| Heading at level 1-6              | [Level-specific key]     |
+| Heading at level 1-6              | Level-specific key. Example: press 2 to jump to level 2     |
 | Form field                        | F                        |
 | Button                            | B                        |
 | Combo box                         | C                        |
