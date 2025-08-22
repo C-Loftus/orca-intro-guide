@@ -37,7 +37,7 @@ This cheatsheet was ported by Colton from https://github.com/dankeck/orca-laptop
 | Form field                        | F                        |
 | Button                            | B                        |
 | Combo box                         | C                        |
-| Entry                             | E                        |
+| Entry   (Editable text field)     | E                        |
 | Radio button                      | R                        |
 | Checkbox                          | X                        |
 | Link                              | K                        |
