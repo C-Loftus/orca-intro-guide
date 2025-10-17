@@ -10,11 +10,12 @@ A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.m
 
 ## Linux Background
 
-- Use a modern, accessible Linux distribution like Ubuntu or Fedora for Orca.
-- Any distro using the Gnome desktop environment is generally a reasonable choice. 
-    - Ubuntu and Fedora are both good defaults, but can sometimes have outdated orca versions in their repositories
-    - Using Debian backports, Arch Linux or NixOS can all work but may be more complicated to use
-- The MATE desktop environment is another option preferred by others
+- A modern, widely used Linux distribution like Ubuntu or Fedora is likely to be a good choice if you want a distribution for general use that is accessible.
+    - Ubuntu and Fedora are both good defaults, but can sometimes have outdated Orca versions in their repositories
+    - Using Debian backports, Arch Linux or NixOS can all work and get you newer packages, but may be more complicated to use
+    - Special custom Linux distros for specific accessibility needs can be useful but may not be as actively maintained or updated.
+- The choice of your desktop environment will make a significant difference to overall system accessibility 
+    - Many blind folks prefer using MATE; Gnome is also a good choice for overall accessibility 
 
 ## Voices
 
@@ -39,23 +40,22 @@ A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.m
 ## Modes
 
 - Browse Mode
-    - Navigate the page with the keyboard
+    - Navigate between semantic sections of the page using the keyboard
     - Default way you navigate the desktop
-    - i.e. pressing up in a text box could move you to the previous element
+    - For example, pressing up in a text box could move you to the previous element
     - Toggled with `Orca` + A
     - Essentially a form of structural navigation. 
-    - Currently supported only in web browsers, but may one day be added to other apps like LibreOffice
 - Focus Mode
     - Navigate inside of a focused element without moving outside of it
     - Automatically enabled when moving focus into certain editable text boxes
-    - i.e. pressing up in a text box could move the cursor to the previous line in the same text box
+    - For example, pressing up in a text box could move the cursor to the previous line in the same text box
     - Toggled with `Orca` + A
 - Learn Mode
     - Ignore all key presses and just echo out what they do
-    - Orca + H 
+    - Toggled with `Orca` + H 
 - Sleep Mode
     - Don't speak when a particular application is focused
-    - i.e. don't duplicate speech when a self-speaking app is focused
+    - Could be used to prevent duplicate speech when a self-speaking app is focused
     - Toggle for a specific application with `Alt` + `ctrl` + `shift` + q
 - Structural Navigation vs Flat Review
     - Not a mode difference technically, but structural navigation keys can be toggled with `Orca + Z`
@@ -85,16 +85,14 @@ A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.m
 
 ### Scripting Orca
 
-- Orca is written in Python and automatically runs the special file `~/.local/share/orca/orca-customizations.py` at startup
-    - This is intended for user code and settings
-    - It is possible to put any arbitrary Python code in this file and control Orca's behavior
-- Orca does not have a stable internal API so scripts may break over time
+- Orca as of version 49.0 can now be controlled with dbus bindings which are documented [here](https://gitlab.gnome.org/GNOME/orca/-/blob/main/README-REMOTE-CONTROLLER.md)
+- You can use my [golang bindings](https://github.com/C-Loftus/orca-controller) to control Orca from a higher level programming language
 
 ### Talks 
 
 Unfortunately there are not many videos regarding Orca. However, these are some that are relvant to Linux accessibility in general:
 
-* [Technical Linux a11y overview](https://www.youtube.com/watch?v=_RQBh7UmEps)
+* [My own technical Linux a11y overview video](https://www.youtube.com/watch?v=_RQBh7UmEps)
 * [Odilia Screen Reader overview](https://www.youtube.com/watch?v=8EPTDCmS7nA) (this is a new experimental Linux screen reader but it is useful for a general overview on how Linux screen readers are written)
 
 <!-- ## Other Useful a11y content -->

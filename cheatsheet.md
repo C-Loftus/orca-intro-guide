@@ -29,33 +29,33 @@ This cheatsheet was ported by Colton from https://github.com/dankeck/orca-laptop
 | Next, previous line      | Up, Down           |
 
 ## Structural Navigation
-| Function                           | Shortcut                   |
-| ---------------------------------- | -------------------------- |
-| Toggle Structural Navigation       | Orca + Z                   |
-| Start and end of current container | Shift + Comma, Comma       |
-| Heading                            | H                          |
-| Heading at level 1-6               | [Level-specific key]       |
-| Form field                         | F                          |
-| Button                             | B                          |
-| Combo box                          | C                          |
-| Entry                              | E                          |
-| Radio button                       | R                          |
-| Checkbox                           | X                          |
-| Link                               | K                          |
-| Unvisited link                     | U                          |
-| Visited link                       | V                          |
-| List                               | L                          |
-| List item                          | I                          |
-| Table                              | T                          |
-| Paragraph                          | P                          |
-| Blockquote                         | Q                          |
-| Large object                       | O                          |
-| Landmark                           | M                          |
-| Separator                          | S                          |
-| Clickable                          | A                          |
-| Image                              | G                          |
-| Go backwards instead of forwards   | Shift + [key listed above] |
-| List all items of type             | Shift + Alt + [key above]  |
+| Function                           | Shortcut                                                |
+| ---------------------------------- | ------------------------------------------------------- |
+| Toggle Structural Navigation       | Orca + Z                                                |
+| Start and end of current container | Shift + Comma, Comma                                    |
+| Heading                            | H                                                       |
+| Heading at level 1-6               | Level-specific key. Example: press 2 to jump to level 2 |
+| Form field                         | F                                                       |
+| Button                             | B                                                       |
+| Combo box                          | C                                                       |
+| Entry   (Editable text field)      | E                                                       |
+| Radio button                       | R                                                       |
+| Checkbox                           | X                                                       |
+| Link                               | K                                                       |
+| Unvisited link                     | U                                                       |
+| Visited link                       | V                                                       |
+| List                               | L                                                       |
+| List item                          | I                                                       |
+| Table                              | T                                                       |
+| Paragraph                          | P                                                       |
+| Blockquote                         | Q                                                       |
+| Large object                       | O                                                       |
+| Landmark                           | M                                                       |
+| Separator                          | S                                                       |
+| Clickable                          | A                                                       |
+| Image                              | G                                                       |
+| Go backwards instead of forwards   | Shift + [key listed above]                              |
+| List all items of type             | Shift + Alt + [key above]                               |
 
 ## Object Navigation
 | Function               | Shortcut                  |
