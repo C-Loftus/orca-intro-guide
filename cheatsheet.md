@@ -58,11 +58,12 @@ This cheatsheet was ported by Colton from https://github.com/dankeck/orca-laptop
 | List all items of type             | Shift + Alt + [key above]                               |
 
 ## Object Navigation
-| Function               | Shortcut                  |
-| ---------------------- | ------------------------- |
-| Next, previous sibling | Orca + Ctrl + Right, Left |
-| First child            | Orca + Ctrl + Down        |
-| Parent                 | Orca + Ctrl + Up          |
+| Function                             | Shortcut                  |
+| ------------------------------------ | ------------------------- |
+| Next, previous sibling               | Orca + Ctrl + Right, Left |
+| First child                          | Orca + Ctrl + Down        |
+| Parent                               | Orca + Ctrl + Up          |
+| Click on object with navigator focus | Orca + Ctrl + Enter       |
 
 ## Tables
 | Function                      | Shortcut                  |
@@ -122,4 +123,3 @@ This cheatsheet was ported by Colton from https://github.com/dankeck/orca-laptop
 | Save bookmark to slot          | Orca + Alt + 1-6 |
 | Save bookmarks for app or page | Orca + Alt + B   |
 | Go to bookmark slot            | Orca + 1-6       |
-
