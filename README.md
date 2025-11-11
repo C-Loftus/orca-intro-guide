@@ -77,6 +77,10 @@ A cheatsheet of many keyboard commands for Orca can be found [here](cheatsheet.m
 - There is no plugin system like in NVDA
     - You can [create scripts](#scripting-orca) and bundle them inside Orca but this is less straightforward
 
+### Accessible Applications
+
+A very brief and non exhaustive list of some accessible applications that work with Orca can be found [here](./applications.md)
+
 ### Useful Websites for Documentation
 
 * https://orca.gnome.org/
